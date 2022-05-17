@@ -14,8 +14,3 @@ def solution(lottos, win_nums):
     answer[0]= rank[cnt+decnt]
     answer[1]= rank[cnt]
     return answer
-
-lottos = [45, 4, 35, 20, 3, 9]
-win_nums = [20, 9, 3, 45, 4, 35]
-answer = solution(lottos,win_nums)
-print(answer)
